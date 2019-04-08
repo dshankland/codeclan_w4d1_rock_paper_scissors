@@ -30,27 +30,27 @@ class TestGame < Minitest::Test
   end
 
   def test_game4
-    assert_equal("Paper Wins!", @game4.rock_paper_scissors())
+    assert_equal("Player2 wins with Paper!", @game4.rock_paper_scissors())
   end
 
   def test_game5
-    assert_equal("Rock Wins!", @game5.rock_paper_scissors())
+    assert_equal("Player1 wins with Rock!", @game5.rock_paper_scissors())
   end
 
   def test_game6
-    assert_equal("Paper Wins!", @game6.rock_paper_scissors())
+    assert_equal("Player1 wins with Paper!", @game6.rock_paper_scissors())
   end
 
   def test_game7
-    assert_equal("Scissors Wins!", @game7.rock_paper_scissors())
+    assert_equal("Player2 wins with Scissors!", @game7.rock_paper_scissors())
   end
 
   def test_game8
-    assert_equal("Rock Wins!", @game8.rock_paper_scissors())
+    assert_equal("Player2 wins with Rock!", @game8.rock_paper_scissors())
   end
 
   def test_game9
-    assert_equal("Scissors Wins!", @game9.rock_paper_scissors())
+    assert_equal("Player1 wins with Scissors!", @game9.rock_paper_scissors())
   end
 
   def test_game10

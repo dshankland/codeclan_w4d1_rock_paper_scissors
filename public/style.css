@@ -1,0 +1,60 @@
+:root {
+  --my-font-family-1: "Palatino Linotype";
+  --my-font-family-2: "Book Antiqua";
+  --my-font-family-3: "Trebuchet MS";
+  --my-font-family-4: "Helvetica";
+}
+
+html, body {
+  font-family: var(--my-font-family-3), var(--my-font-family-4), Palatino, serif;
+}
+
+p {
+  font-family: var(--my-font-family-3), var(--my-font-family-4), Palatino, serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 1px;
+  text-align: center;
+  color: DarkSlateGrey;
+  font-size: 2vw ;
+  max-height: 200px;
+}
+
+.header p {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+  font-family: var(--my-font-family-3), var(--my-font-family-4), Palatino, serif;
+}
+
+li a {
+  display: block;
+  color: DarkSlateGrey;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #66ccff;
+}
+
+.active {
+  background-color: #b3e6ff;
+}
